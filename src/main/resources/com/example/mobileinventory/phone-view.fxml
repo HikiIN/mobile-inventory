@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.mobileinventory.controller.PhoneController">
+
+    <top>
+        <VBox spacing="10">
+            <padding>
+                <Insets bottom="10" left="15" right="15" top="15"/>
+            </padding>
+            <Label text="📱 Система управління телефонами"
+                   style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+            <Separator/>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="5">
+            <padding>
+                <Insets left="15" right="15"/>
+            </padding>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Список телефонів:" style="-fx-font-weight: bold; -fx-font-size: 14px;"/>
+                <Button text="🔄 Показати всі" onAction="#showAllPhones" style="-fx-background-color: #A23B72; -fx-text-fill: white;"/>
+                <Button text="🗑️ Очистити поля" onAction="#clearFields" style="-fx-background-color: #F18F01; -fx-text-fill: white;"/>
+            </HBox>
+
+            <TableView fx:id="phoneTable" prefHeight="800">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+                    <TableColumn fx:id="modelColumn" text="Модель" prefWidth="120"/>
+                    <TableColumn fx:id="yearColumn" text="Рік" prefWidth="80"/>
+                    <TableColumn fx:id="priceColumn" text="Ціна (₴)" prefWidth="100"/>
+                    <TableColumn fx:id="serialNumberColumn" text="Серійний номер" prefWidth="120"/>
+                    <TableColumn fx:id="storageColumn" text="Пам’ять (ГБ)" prefWidth="80"/>
+                    <TableColumn fx:id="lastCheckColumn" text="Перевірка" prefWidth="120"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+
+    <left>
+        <ScrollPane fitToWidth="true" prefWidth="400">
+            <VBox spacing="15" style="-fx-background-color: #F5F5F5;">
+                <padding>
+                    <Insets top="15" bottom="15" left="15" right="15"/>
+                </padding>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="🔍 Пошук за моделлю" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <TextField fx:id="modelField" promptText="iPhone, Samsung..." prefWidth="200"/>
+                        <Button text="Знайти" onAction="#listPhonesByModel" style="-fx-background-color: #2E86AB; -fx-text-fill: white;"/>
+                    </HBox>
+                </VBox>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="📅 Пошук за роками експлуатації" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <Label text="Понад:"/>
+                        <TextField fx:id="yearsField" promptText="3" prefWidth="60"/>
+                        <Label text="років"/>
+                        <Button text="Знайти" onAction="#listPhonesByUsageYears" style="-fx-background-color: #2E86AB; -fx-text-fill: white;"/>
+                    </HBox>
+                </VBox>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="💰 Пошук за роком і ціною" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <Label text="Рік:"/>
+                        <TextField fx:id="yearField" promptText="2020" prefWidth="70"/>
+                        <Label text="Ціна >:"/>
+                        <TextField fx:id="priceField" promptText="20000" prefWidth="80"/>
+                        <Button text="Знайти" onAction="#listPhonesByYearAndPrice" style="-fx-background-color: #2E86AB; -fx-text-fill: white;"/>
+                    </HBox>
+                </VBox>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="📊 Сортування" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+                    <Button text="Сортувати за датою перевірки і серійним номером" onAction="#sortByCheckAndSerialNumber"
+                            style="-fx-background-color: #A23B72; -fx-text-fill: white;" prefWidth="300"/>
+                </VBox>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="🔍 Перевірка за серійним номером" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <TextField fx:id="serialNumberField" promptText="SN123456" prefWidth="120"/>
+                        <Button text="Перевірити" onAction="#checkPhoneBySerialNumber" style="-fx-background-color: #2E86AB; -fx-text-fill: white;"/>
+                    </HBox>
+                </VBox>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="➕ Додати новий телефон" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+
+                    <GridPane hgap="8" vgap="5">
+                        <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                        <TextField fx:id="newIdField" promptText="6" prefWidth="60" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+                        <Label text="Модель:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                        <TextField fx:id="newModelField" promptText="Huawei P40" prefWidth="150" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+                        <Label text="Рік:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                        <TextField fx:id="newYearField" promptText="2022" prefWidth="80" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+                        <Label text="Ціна:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+                        <TextField fx:id="newPriceField" promptText="30000" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+                        <Label text="Серійний номер:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+                        <TextField fx:id="newSerialNumberField" promptText="SN111222" prefWidth="120" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+                        <Label text="Пам’ять:" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+                        <TextField fx:id="newStorageField" promptText="256" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+
+                        <Label text="Перевірка:" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+                        <DatePicker fx:id="newCheckDatePicker" promptText="2024-01-15" prefWidth="120" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+                    </GridPane>
+
+                    <Button text="➕ Додати телефон" onAction="#addNewPhone"
+                            style="-fx-background-color: #28A745; -fx-text-fill: white; -fx-font-weight: bold;" prefWidth="300"/>
+                </VBox>
+
+                <VBox spacing="8" style="-fx-background-color: white; -fx-background-radius: 8; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+                    <padding>
+                        <Insets top="12" bottom="12" left="12" right="12"/>
+                    </padding>
+                    <Label text="💾 Робота з файлами" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <TextField fx:id="fileNameField" promptText="phones_data.txt" prefWidth="150"/>
+                        <Button text="💾 Зберегти" onAction="#saveToFile" style="-fx-background-color: #28A745; -fx-text-fill: white;"/>
+                        <Button text="📂 Завантажити" onAction="#loadFromFile" style="-fx-background-color: #17A2B8; -fx-text-fill: white;"/>
+                    </HBox>
+                </VBox>
+            </VBox>
+        </ScrollPane>
+    </left>
+
+    <bottom>
+        <VBox spacing="5">
+            <padding>
+                <Insets bottom="15" left="15" right="15" top="10"/>
+            </padding>
+            <Separator/>
+            <Label text="📝 Результати операцій:" style="-fx-font-weight: bold; -fx-text-fill: #2E86AB;"/>
+            <TextArea fx:id="outputArea" editable="false" wrapText="true" prefHeight="150"
+                      style="-fx-background-color: #F8F9FA; -fx-border-color: #DEE2E6; -fx-border-radius: 4;"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>
