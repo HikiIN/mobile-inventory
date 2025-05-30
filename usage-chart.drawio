@@ -16,6 +16,15 @@
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-1" target="Nl0KgVND-EZbPuXgW0HM-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=1;startFill=0;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-1" target="Nl0KgVND-EZbPuXgW0HM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-1" target="Nl0KgVND-EZbPuXgW0HM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-1" target="Nl0KgVND-EZbPuXgW0HM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Користувач системи&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=1;perimeterSpacing=0;" vertex="1" parent="1">
           <mxGeometry x="-140" y="250" width="70" height="140" as="geometry" />
         </mxCell>
