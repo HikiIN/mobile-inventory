@@ -89,28 +89,28 @@
           <mxGeometry x="510" y="20" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Пошук за&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;моделлю&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="280" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="320" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-14" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Пошук за роками&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;експлуатації&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="350" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Пошук за роком&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;та ціною&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="430" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="480" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Пошук за серійним&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;номером&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="510" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="555" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-17" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Пошук тлефонів&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;до заданого року&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="585" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="640" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Сортування за датою&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;перевірки та серійним номером&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="690" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Карта моделей&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;до телефонів&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="410" width="140" height="60" as="geometry" />
+          <mxGeometry x="930" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-20" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Найдорожчі за моделями&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="530" width="140" height="60" as="geometry" />
+          <mxGeometry x="960" y="540" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-7" target="Nl0KgVND-EZbPuXgW0HM-14">
           <mxGeometry relative="1" as="geometry">
@@ -171,7 +171,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-50" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Видалення за ID&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="210" width="140" height="60" as="geometry" />
+          <mxGeometry x="510" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="219.66" as="sourcePoint" />
+            <mxPoint x="510" y="219.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-52" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;extend&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nl0KgVND-EZbPuXgW0HM-51">
+          <mxGeometry x="-0.1238" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-53" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Вибір файлу&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;для збереження&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="299.66" as="sourcePoint" />
+            <mxPoint x="510" y="299.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-55" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;extend&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nl0KgVND-EZbPuXgW0HM-54">
+          <mxGeometry x="-0.1238" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
