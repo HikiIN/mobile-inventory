@@ -7,7 +7,7 @@
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Користувач системи&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=1;perimeterSpacing=0;" vertex="1" parent="1">
           <mxGeometry x="-100" y="160" width="70" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Nl0KgVND-EZbPuXgW0HM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=3;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-2" target="Nl0KgVND-EZbPuXgW0HM-12">
+        <mxCell id="Nl0KgVND-EZbPuXgW0HM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" edge="1" parent="1" source="Nl0KgVND-EZbPuXgW0HM-2" target="Nl0KgVND-EZbPuXgW0HM-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nl0KgVND-EZbPuXgW0HM-22" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;include&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nl0KgVND-EZbPuXgW0HM-21">
