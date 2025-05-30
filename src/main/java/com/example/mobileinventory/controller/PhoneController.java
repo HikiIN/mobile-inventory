@@ -60,6 +60,9 @@ public class PhoneController {
     @FXML
     private DatePicker newCheckDatePicker;
 
+    @FXML
+    private TextField deleteIdField;
+
     private final PhoneService phoneService = new PhoneService();
 
     @FXML
@@ -175,6 +178,28 @@ public class PhoneController {
     }
 
     @FXML
+    private void deletePhone() {
+        String idText = deleteIdField.getText().trim();
+        if (idText.isEmpty()) {
+            outputArea.setText("Помилка: поле ID для видалення порожнє.");
+            return;
+        }
+        try {
+            int id = Integer.parseInt(idText);
+            boolean removed = phoneService.removePhone(id);
+            if (removed) {
+                displayPhones(phoneService.getAllPhones());
+                outputArea.setText("Телефон з ID " + id + " успішно видалено.");
+                deleteIdField.clear();
+            } else {
+                outputArea.setText("Телефон з ID " + id + " не знайдено.");
+            }
+        } catch (NumberFormatException e) {
+            outputArea.setText("Помилка: ID має бути числом.");
+        }
+    }
+
+    @FXML
     private void clearFields() {
         modelField.clear();
         yearsField.clear();
@@ -182,6 +207,7 @@ public class PhoneController {
         priceField.clear();
         serialNumberField.clear();
         yearLessThanField.clear();
+        deleteIdField.clear();
         clearNewPhoneFields();
         outputArea.clear();
     }
