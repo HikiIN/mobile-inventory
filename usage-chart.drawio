@@ -389,6 +389,9 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-9" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=light-dark(#FF0000,#FFF7F7);" vertex="1" parent="1">
           <mxGeometry x="850" y="610" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Дані&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;коректні ?&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="720" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
