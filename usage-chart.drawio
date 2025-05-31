@@ -388,6 +388,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-11" target="TMyJCqD3IewcVFYLKMMd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-29" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TMyJCqD3IewcVFYLKMMd-28">
+          <mxGeometry x="-0.0805" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Дані&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;коректні&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-205" y="720" width="100" height="100" as="geometry" />
         </mxCell>
@@ -423,6 +431,9 @@
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-24" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Виконати пошук&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="890" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-27" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Показати помилку&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="950" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
