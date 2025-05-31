@@ -287,7 +287,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ul1_96swG6PB7tGZbE2a" name="activity-diagram">
-    <mxGraphModel dx="1810" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,11 +347,11 @@
             <mxPoint x="-155" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TMyJCqD3IewcVFYLKMMd-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DyQPFfsiVf1X-Cu4L0ly-18" target="TMyJCqD3IewcVFYLKMMd-21">
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DyQPFfsiVf1X-Cu4L0ly-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="35" y="610" as="targetPoint" />
+            <mxPoint x="40" y="609" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="35" y="560" />
+              <mxPoint x="40" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -420,6 +420,9 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-19" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Робота з файлами&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="610" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-21" target="TMyJCqD3IewcVFYLKMMd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-21" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Додати телефон&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="610" width="140" height="30" as="geometry" />
         </mxCell>
@@ -440,6 +443,17 @@
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-30" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Закрити додаток&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="505" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-33" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Всі поля заповнені&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="720" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-33" target="TMyJCqD3IewcVFYLKMMd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-36" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TMyJCqD3IewcVFYLKMMd-35">
+          <mxGeometry x="-0.3566" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
