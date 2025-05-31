@@ -287,7 +287,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ul1_96swG6PB7tGZbE2a" name="activity-diagram">
-    <mxGraphModel dx="983" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -345,7 +345,7 @@
           <mxGeometry x="345" y="380" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DyQPFfsiVf1X-Cu4L0ly-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Головне&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;меню&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="510" width="100" height="100" as="geometry" />
+          <mxGeometry x="370" y="470" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
