@@ -287,7 +287,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ul1_96swG6PB7tGZbE2a" name="activity-diagram">
-    <mxGraphModel dx="1810" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -380,8 +380,16 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-9" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=light-dark(#FF0000,#FFF7F7);" vertex="1" parent="1">
           <mxGeometry x="850" y="610" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TMyJCqD3IewcVFYLKMMd-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Дані&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;коректні ?&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="720" width="100" height="100" as="geometry" />
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-11" target="TMyJCqD3IewcVFYLKMMd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-26" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TMyJCqD3IewcVFYLKMMd-25">
+          <mxGeometry x="-0.0536" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Дані&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;коректні&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="720" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-12" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Завантажити дані&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="320" width="120" height="30" as="geometry" />
@@ -407,8 +415,14 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-21" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Додати телефон&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="610" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-22" target="TMyJCqD3IewcVFYLKMMd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-22" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Пошук&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="610" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-24" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Виконати пошук&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="890" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
