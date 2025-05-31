@@ -287,7 +287,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ul1_96swG6PB7tGZbE2a" name="activity-diagram">
-    <mxGraphModel dx="1718" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1336" dy="265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,7 +451,7 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-24" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Виконати пошук&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="890" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TMyJCqD3IewcVFYLKMMd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-27" target="TMyJCqD3IewcVFYLKMMd-50">
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-27" target="TMyJCqD3IewcVFYLKMMd-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="10" y="1105" />
@@ -539,7 +539,7 @@
           <mxGeometry x="340" y="1020" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-50" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Повеонутися до меню&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1090" width="160" height="30" as="geometry" />
+          <mxGeometry x="340" y="1090" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-55" target="TMyJCqD3IewcVFYLKMMd-56">
           <mxGeometry relative="1" as="geometry" />
@@ -558,7 +558,7 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-56" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Сортувати дані&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="361.25" y="830" width="117.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TMyJCqD3IewcVFYLKMMd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-60" target="TMyJCqD3IewcVFYLKMMd-62">
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.572;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-60" target="TMyJCqD3IewcVFYLKMMd-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-66" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TMyJCqD3IewcVFYLKMMd-65">
@@ -569,7 +569,7 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-60" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Зберегти чи&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;завантажитти&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="710" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TMyJCqD3IewcVFYLKMMd-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-62" target="TMyJCqD3IewcVFYLKMMd-64">
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.623;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-62" target="TMyJCqD3IewcVFYLKMMd-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-62" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Зберегти у файл&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -578,7 +578,7 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-63" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Завантажити з файлу&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="890" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TMyJCqD3IewcVFYLKMMd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-64" target="TMyJCqD3IewcVFYLKMMd-50">
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-64" target="TMyJCqD3IewcVFYLKMMd-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-64" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Повідомлення про збереження&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
