@@ -325,21 +325,22 @@
         <mxCell id="DyQPFfsiVf1X-Cu4L0ly-7" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Файл існує?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="200" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TMyJCqD3IewcVFYLKMMd-12" target="DyQPFfsiVf1X-Cu4L0ly-15" edge="1">
+        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TMyJCqD3IewcVFYLKMMd-12" target="TMyJCqD3IewcVFYLKMMd-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="350" as="sourcePoint" />
+            <mxPoint x="345" y="394.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.533;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TMyJCqD3IewcVFYLKMMd-15" target="DyQPFfsiVf1X-Cu4L0ly-15" edge="1">
+        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.533;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TMyJCqD3IewcVFYLKMMd-15" target="TMyJCqD3IewcVFYLKMMd-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="349.9999999999999" as="sourcePoint" />
+            <mxPoint x="495" y="394.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DyQPFfsiVf1X-Cu4L0ly-15" target="DyQPFfsiVf1X-Cu4L0ly-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-15" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Відобразити таблицю&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="345" y="380" width="150" height="30" as="geometry" />
+        <mxCell id="DyQPFfsiVf1X-Cu4L0ly-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="DyQPFfsiVf1X-Cu4L0ly-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="409.9999999999999" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DyQPFfsiVf1X-Cu4L0ly-18" target="TMyJCqD3IewcVFYLKMMd-1">
           <mxGeometry relative="1" as="geometry" />
@@ -400,6 +401,9 @@
         </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-15" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Створити тестові дані&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="320" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-16" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Відобразити таблицю&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="380" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
