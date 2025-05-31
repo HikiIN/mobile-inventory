@@ -287,7 +287,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ul1_96swG6PB7tGZbE2a" name="activity-diagram">
-    <mxGraphModel dx="2015" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -494,6 +494,9 @@
         <mxCell id="TMyJCqD3IewcVFYLKMMd-41" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;ID&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Коректний ?&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="720" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-45" target="TMyJCqD3IewcVFYLKMMd-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-45" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Видалити телефон&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="900" width="130" height="30" as="geometry" />
         </mxCell>
@@ -508,8 +511,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TMyJCqD3IewcVFYLKMMd-48" target="TMyJCqD3IewcVFYLKMMd-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TMyJCqD3IewcVFYLKMMd-48" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Оновити відображення&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="1020" width="160" height="30" as="geometry" />
+          <mxGeometry x="340" y="1020" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TMyJCqD3IewcVFYLKMMd-50" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Повеонутися до меню&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1090" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
